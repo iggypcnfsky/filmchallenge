@@ -1,0 +1,40 @@
+import { SlotMachineState } from '../types';
+
+export const initialState: SlotMachineState = {
+  genres: [
+    { id: 1, text: 'Comedy' },
+    { id: 2, text: 'Horror' },
+    { id: 3, text: 'Sci-Fi' },
+    { id: 4, text: 'Romantic Drama' },
+    { id: 5, text: 'Mystery/Thriller' },
+    { id: 6, text: 'Fantasy' },
+    { id: 7, text: 'Action/Adventure' },
+    { id: 8, text: 'Mockumentary' },
+    { id: 9, text: 'Musical' },
+    { id: 10, text: 'Slice of Life' },
+  ],
+  quotes: [
+    { id: 1, text: "That's not what I expected to find in the fridge." },
+    { id: 2, text: "If we don't fix this, who will?" },
+    { id: 3, text: "The clock stopped at exactly midnight." },
+    { id: 4, text: "Are you sure this is a good idea?" },
+    { id: 5, text: "Nobody told me there'd be a test today." },
+    { id: 6, text: "I can't believe this is actually happening." },
+    { id: 7, text: "Some secrets are better left undiscovered." },
+    { id: 8, text: "This wasn't part of the plan!" },
+    { id: 9, text: "Every story has two sides." },
+    { id: 10, text: "I think we're going to need a bigger bag." },
+  ],
+  props: [
+    { id: 1, text: 'A frying pan' },
+    { id: 2, text: 'A roll of duct tape' },
+    { id: 3, text: 'A coffee mug' },
+    { id: 4, text: 'A set of keys' },
+    { id: 5, text: 'A pair of sunglasses' },
+    { id: 6, text: 'A pillow' },
+    { id: 7, text: 'A broom' },
+    { id: 8, text: 'A smartphone' },
+    { id: 9, text: 'A scarf' },
+    { id: 10, text: 'A flashlight' },
+  ],
+};

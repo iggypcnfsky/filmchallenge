@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+.glass-morphism {
+  @apply bg-emerald-950/30 backdrop-blur-md border border-emerald-500/20;
+}
+
+.festive-button {
+  @apply glass-morphism px-8 py-4 rounded-full text-xl font-bold text-emerald-100 
+    hover:bg-emerald-800/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed 
+    flex items-center gap-2 mx-auto shadow-lg hover:shadow-xl hover:-translate-y-0.5 
+    active:translate-y-0 disabled:hover:transform-none;
+}
